@@ -1,4 +1,6 @@
 import React from 'react';
+import createStore from './store/createStore';
+import AppContainer from './AppContainer'
 
 export default class Root extends React.Component{
 	renderApp(){
@@ -6,7 +8,7 @@ export default class Root extends React.Component{
 		const store = createStore(initialState);
 
 		return(
-			
+			<AppContainer store={store} />
 			);
 	}
 
