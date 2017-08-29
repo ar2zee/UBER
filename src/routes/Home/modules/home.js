@@ -21,6 +21,7 @@ function handleSetName(state, action){
 const ACTION_HANDLERS = {
 	SET_NAME: handleSetName
 }
+
 const initialState = {};
 
 export function HomeReducer (state = initialState, action){

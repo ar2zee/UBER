@@ -1,8 +1,3 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- * @flow
- */
 
 import React, { Component } from 'react';
 import {
@@ -18,7 +13,7 @@ export default class UBER extends Component {
   render() {
     return (
       <View style={styles.container}>
-        < Root { ...this.props}/>
+        <Root { ...this.props}/>
       </View>
     );
   }
